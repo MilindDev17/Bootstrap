@@ -1,0 +1,420 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Gym Workout website tempalate</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet"  />
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body id="home" data-spy="scroll" data-target="#main-nav"> 
+        <!--<nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
+                <div class="container">
+                  <a href="#home" class="navbar-brand">
+                    <img src="img/one.png" width="50" height="50" alt="">
+                    <h3 class="d-inline align-middle">Mizuxe</h3>
+                  </a>
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#authors" class="nav-link">Meet The Authors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            -->
+
+          <!--
+              <nav class="navbar navbar-expand-md navbar-light  fixed-top py-4" id="main-nav">
+                <div class="container">
+                  <a href="#home" >
+                    <img src="img/one.png" width="50" height="50" alt="">
+                    <h3 class="d-inline align-middle">Mizuxe</h3>
+                  </a>
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                 <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto"> <!-navbar nav-->
+                <!--      <li class="nav-item"> <!nav-->
+                <!--          <a href="#home" class="nav-link">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#authors" class="nav-link">Meet The Authors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <section id="showcase" class="py-5">
+                <div class="primary-overlay text-white">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6 text-center">
+                        <h1 class="display-2 mt-5 pt-5">
+                          Do What You Dream Of...
+                        </h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, tempora!</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-danger">
+                          <i class="fas fa-arrow-right"></i> Read More
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <img src="img/one.png" alt="" class="img-fluid d-none d-lg-block">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+              <section id="newsletter" class="bg-dark text-white py-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+                    </div>
+                    <div class="col-md-4">
+                      <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+                    </div>
+                    <div class="col-md-4">
+                      <button class="btn btn-primary btn-lg btn-block">
+                        <i class="fas fa-envelope-open-o"></i> Subscribe
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+              
+  BOXES 
+  <section id="boxes" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Better</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-primary text-white mb-resp">
+            <div class="card-body">
+              <h3>Be Smarter</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Faster</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-primary text-white">
+            <div class="card-body">
+              <h3>Be Stronger</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+                
+  BOXES
+  <section id="boxes" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Better</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card text-center bg-primary text-white mb-resp">
+            <div class="card-body">
+              <h3>Be Smarter</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card text-center border-primary mb-resp">
+            <div class="card-body">
+              <h3 class="text-primary">Be Faster</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card text-center bg-primary text-white">
+            <div class="card-body">
+              <h3>Be Stronger</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+<nav class="navbar navbar-expand-md navbar-light py-5"  id="main-nav">  <!--fixed top-->
+      <div class="container fixed point bg-info">   <!--fixed point-->
+      <!--<div>
+          <a href="" src="" class="navbar-bran">
+              <h3 class="text-warning">Daniel Martien</h3></a>
+      </div> -->
+     <!--row start-->
+      <div class="row mt-1 py-1">
+        <div class="col-md-5 ">
+          <a href="#homei" src="" class="navbar-brand" id="main-nav">
+          <h3 class="text-warning py-1 mb-1 ">Daniel Martien</h3></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav align-middle"> 
+            <li class="nav-item ml-1 "><a href ="#home" class ="nav-link text-white" >home</a></li>
+            <li class="nav-item ml-1 "><a href ="#about" class ="nav-link text-white" >about</a></li>
+            <li class="nav-item ml-1 "><a href ="#Carrers" class ="nav-link text-white" >carrers</a></li>
+           <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              -->
+        
+          </ul>
+          </div>
+
+          <div class="NAMING text-white bg-dark text-warning  py-3 mt-3 mb-3">
+            <h1 class="display-2"> HI IM DANIEL MARTIN</h1> 
+            
+          </div>
+        </div>
+      <!--image
+      <div class="row">
+          <div class="col-md-5  ml-auto mt-auto   text-white width:250px">     --text
+            <img src="img/me.png" class="ml-5 mb-5 mr-5" width="310px;" height="350px">
+          </div>
+      </div>
+      end image-->
+      <!--row end-->
+      
+    </div>
+     <!--image-->
+    <!-- <div class="row"> -->
+        <div class="col-md-5   bg-dark  text-white  "> <!--text-->
+          <img src="img/me.png" class="ml-5 mb-5 mr-5" width="310px;" height="420px">
+        </div>
+    <!-- <div>> -->
+    </div>
+     <!--end image-->
+    </div>
+      <!--end container-->   
+</nav>
+<!--end nav-->
+
+<!--start dropdown-->
+<!--
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+  -->
+  <!--end dropdpwm-->
+
+  <!--showcase-->
+  <section> <!--class showcase-->
+        <a href="showit" ><h3>HERE START APP<h3></a>
+     <!-- <div class="container">
+      <div class="col-md-3"><a href="" class="fs">fafa</a>
+      </div>
+    </div>-->
+      </section>
+<!--end showcase-->
+
+
+
+  <!-- layout 2 -->
+
+  <section class="Ab py-5 bg-primary ">
+    <h3 class="bg-danger text-center">About ME</h3>
+    <p class="about text-center align-middle ">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. 
+                                      This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+    </p>
+    <!--important-->
+    <div class="btn col-md-11 ">
+        <button class="btn text-danger border-info ">view Full Resume </button> <!--btn-button-->
+    </div>
+      </section>
+    <!--layout 2 -->
+
+      <!--layout 3 -->
+    <section class="boxes py-5">
+        <div class="row justify-content-all">
+          <div class="col-md-3">
+           <div class="card">
+            <div class="card-body py-1">
+              <a href="www.facebook.com" class="cardi"><p><h3 class="text-warning fab fa-accessible-icon"><span class="s bg-danger">check</span></h3></p></a>
+             </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+             <div class="card-body py-1">
+               <p><h3 class="text-warning fas-">describe</h3></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-3">
+            <div class="card">
+             <div class="card-body py-1">
+               <p><h3 class="text-warning">like</h3></p>
+             </div>
+           </div>
+         </div>
+      </div>
+      </section>
+  
+  <!--end layout 3-->
+
+  <!--show reel -->
+  <section class="#showreel">
+      <h1 class="text-dark text-center  py-5 ">ShowReel </h1>
+    </section>
+  <!--show reel -->
+
+
+   <!--photos -->
+   <section class="photo py-5 ml-auto bg-danger">
+     <div class="row d-flex px-5">
+       <div class="col-md-3">
+          <div class="card  bg-dark">
+            <div class="card-body">
+                <h1 class="text-white text-center  py-5 ">pics<img src="img/me.png"></h1>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-3">
+          <div class="card  bg-dark">
+              <a href="#link" class="bg-dark"><h1 class="text-white text-center  py-5 ">pics<img src="img/me.png"></h1></a>
+            </div>
+       </div>
+       <div class="col-md-3">
+          <div class="card  bg-dark">
+              <h1 class="text-white text-center  py-5 ">pics<img src="img/me.png"></h1>
+            </div>
+       </div>
+       <div class="col-md-3">
+          <div class="card  bg-dark">
+              <h1 class="text-white text-center  py-5 ">pics<img src="img/me.png"></h1>
+            </div>
+       </div>   
+    </div>
+     
+    </section>
+  <!--photos -->
+
+
+  <!--footer-->
+    <footer class="text-center text-primary">
+      <h5>&Because;&Mellintrf;ilind@2018</h5>
+    </footer>
+  <!--end footer-->
+
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    
+
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script>
+  // Get the current year for the copyright
+  $('#year').text(new Date().getFullYear());
+
+  // Init Scrollspy
+  $('body').scrollspy({ target: '#main-nav' });
+
+  // Smooth Scrolling
+  $("#main-nav a").on('click', function (event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      const hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function () {
+
+        window.location.hash = hash;
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
