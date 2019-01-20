@@ -1,0 +1,75 @@
+<!-- 
+  Bootstrap docs: https://getbootstrap.com/docs
+  x=>y and z 
+-->
+
+<div class="grid-layout">Grid Layout</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-6 x">
+      <p style="background-color:aliceblue">firstcol</p>
+      <div class="row">
+        <div class="col-md-3 y" style="width:210px;background-color:#e25db8">
+          <div class="col-md-3 y" style="background-color:yellow ;margin-top:30px;margin-left:-15px;width:50px;height:20px">
+            <div class="col-md-3 y" style="background-color:#35b7aa ;margin-top:2px;margin-left:35px;width:20px;height:42px; color:#35b7aa">
+            </div>
+
+
+
+          </div>
+          <div class="col-md-3 y" style="background-color:#544e3 ;margin-top:2px;margin-left:-15px;width:50px;height:20px">
+          </div>
+          <p>firstcol</p>
+        </div>
+
+
+        <div class="col-md-3 y" style="background-color:yellow;margin-left:0px;width:50px;height:90px">
+        </div>
+        <div class="col-md-3 y" style="background-color:blue;margin-left:0px;width:50px;height:20px">
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 z">
+        <p style="background-color:aliceblue">firstcol</p>
+      </div>
+    </div>
+    <!--row--end-->
+  </div>
+
+
+
+
+
+.grid-layout {
+  margin-top: 20px;
+  text-align: center;
+  color: dodger-blue;
+  background-color: rgba(255, 51, 119, 0.2);
+}
+
+.container {
+  width: 100%;
+  border: 1px solid blue
+}
+
+.x {
+  background-color: rgba(102, 0, 0, 0.2);
+  margin: auto;
+}
+
+.y {
+  background-color: rgba(102, 102, 0, 0.2);
+  width: 90px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.z {
+  background-color: rgba(102, 102, 0, 0.2);
+  margin: auto;
+}
