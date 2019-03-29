@@ -1,0 +1,11 @@
+body {
+margin: 0px;
+padding: 0px;
+background-image: url("./dribble/mind.jpg");
+/* background: no-repeat  */
+}
+.container {
+    background: linear-gradient(dodgerblue, grey,40% ,blue);
+    background:  grey;
+    border: 10px solid black;
+}
