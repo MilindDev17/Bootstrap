@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-info mt-2 fixed-top">
+     <div class="container ml-auto">
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+             <h1 class="Krooks text-white"> Krooks </h1>
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link active text-white" href="#">home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">careers</li>
+         </ul>
+         <button class="navbar-toggler btn btn-dark btn-outline-danger text-white " data-target="#navbarcollapse" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+     </div>
+    </div>
+    </nav>
+    <!-- header -->
+    <header id="header">
+        <div class="container py-3 mt-5 bg-danger">
+            <h1 class="py-3 mt-5 text-center">collapse Fields</h1>  
+            <p class="text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus dicta odi</p>
+            <div class="card card-form  formchangewidth ">
+                <div class="row">
+                    <div class="col-md-9">
+                    <div class="h formchange dropdown">
+                        <!-- (1) -->
+                    <button class="btn dropdown-toggle ml-auto" type="button"  id="dropdownMenuButton" data-toggle="dropdown"><span class="caret"></span>select and choice</button>
+                    <ul class=" dropdown-menu">
+                        <li><a href="#" class="dropdown-item">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#" class="dropdown-item">selection option</a></li>
+                    </ul>
+                    <input type="text" name="selectsomething" placeholder="selectsomething" class="form-control"/>
+                    
+                    <!-- (2) -->
+                    <button class="btn dropdown-toggle ml-3" type="button"  id="dropdownMenuButton" data-toggle="dropdown"><span class="caret"></span>select and choice</button>
+                    <ul class=" dropdown-menu">
+                        <li><a href="#" class="dropdown-item">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#" class="dropdown-item">selection option</a></li>
+                    </ul>
+                    <input type="text" name="selectsomething" placeholder="selectsomething" class="form-control"/>
+       
+                        <!-- (3) -->
+                    <button class="btn dropdown-toggle ml-3" type="button"  id="dropdownMenuButton" data-toggle="dropdown"><span class="caret"></span>select and choice</button>
+                    <ul class=" dropdown-menu">
+                        <li><a href="#" class="dropdown-item">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#" class="dropdown-item">selection option</a></li>
+                    </ul>
+                    <input type="text" name="selectsomething" placeholder="selectsomething" class="form-control"/>
+       
+                        <!-- (4) -->
+                    <button class=" btn dropdown-toggle ml-3" type="button"  id="dropdownMenuButton" data-toggle="dropdown"><span class="caret"></span>select and choice</button>
+                    <ul class=" dropdown-menu">
+                        <li><a href="#" class="dropdown-item">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#">selection option</a></li>
+                        <li class="dropdown-menu"><a href="#" class="dropdown-item">selection option</a></li>
+                    </ul>
+                    <input type="text" name="selectsomething" placeholder="selectsomething" class="form-control"/>
+                </div>
+
+                
+                <!-- formchange end -->
+            </div>
+            <!-- col end -->
+            </div>
+            <!-- rew end -->
+        </div>
+        <!-- card end -->
+        <div class="row py-1 mt-2 ">
+            <div class="col-lg-8 text-center ">
+                <button class=" btn text-center bg-dark  text-info py-2 ml-3 thumbnail-icon">click me </button>
+            </div>
+        </div>
+     </div>
+        <!-- container end -->
+    </header>
+    <!-- header -->
+    <section class="px-3 ml-3">
+        <div class="container  ">
+        <div class="row">
+            <div class="col-md-5 py-3 ml-3">
+                    <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ab voluptatum id recusandae vero animi ratione inventore dolorem accusamus ipsa tempora quos dolor eligendi, nemo rerum impedit fuga veniam? Libero!</p>            
+                    <button class="btn bg-danger">kabul</button> 
+            </div>
+            <div class="col-md-5 py-3 ml-3">
+                <h6 class="bg-info text-center">select</h6>
+                <div class="card card-form d-flex flex-row">
+                    <img src="./img/jayden.jpg " width="50%" height="30%">
+                    <img src="./img/jayden.jpg " width="50%" height="30%">
+                </div>
+                <input type="text" class="form-control" name="input" placeholder="monica gellar">
+                <input type="text" class="form-control" name="input" placeholder="rachael">
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
