@@ -1,11 +1,37 @@
 body {
-margin: 0px;
-padding: 0px;
-background-image: url("./dribble/mind.jpg");
-/* background: no-repeat  */
+
 }
-.container {
-    background: linear-gradient(dodgerblue, grey,40% ,blue);
-    background:  grey;
-    border: 10px solid black;
+.navbarf {
+    background-color:brown
+}
+.High {
+    color: orange;
+    background-color:olivedrab;
+    margin-right: 40px;
+}
+.paragraphic {
+    overflow: unset;
+}
+.room {
+    text-decoration: none;
+    list-style: none
+}
+
+.xx > a {
+    color: darkorange;
+    text-decoration: none;
+}
+.xx > a:link {
+    color: green
+}
+.xx > a:hover {
+    color:darkmagenta
+}
+.xx > a:focus {
+    color:darkslategrey;
+    transition: 5s;
+}
+
+.footcolor {
+    background-color: saddlebrown;
 }
